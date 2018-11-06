@@ -1,1 +1,34 @@
 @import "reset.css";
+
+.head {
+  display: flex;
+
+  height: 45px;
+
+  background-color: #262626;
+
+  flex-flow: row wrap;
+}
+
+.head>img {
+  display: inline-block;
+
+  margin-top: -4px;
+  padding: 0 15px;
+}
+
+nav, ul {
+  color: white;
+}
+
+nav {
+  display: flex;
+
+  align-items: center;
+  justify-content:
+
+}
+
+ul, li {
+  display: inline-block;
+}
