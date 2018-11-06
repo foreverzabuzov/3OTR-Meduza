@@ -1,6 +1,8 @@
 @import "reset.css";
 
-body {
+* {
+  box-sizing: border-box;
+
   -webkit-font-smoothing: antialiased;
 }
 
@@ -90,4 +92,23 @@ header ul {
   flex-basis: 16%;
   flex-grow: 1;
   justify-content: flex-end;
+}
+
+.panel {
+  position: relative;
+
+  box-sizing: border-box;
+  height: 45px;
+  padding: 0 15px;
+  padding-top: 15px;
+
+  border-bottom: 1px solid rgb(115, 114, 116);
+  background-color: white;
+
+  font-weight: bold;
+}
+
+.panel button {
+  position: absolute;
+  right: 0;
 }
