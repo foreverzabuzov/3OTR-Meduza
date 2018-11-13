@@ -4,7 +4,21 @@
   src: url("../fonts/PFRegal.woff");
 }
 
-@@font-face {
+@font-face {
   font-family: "Proxima Nova";
-  src: url();
+  font-weight: bold;
+  src: url("../fonts/ProximaNova-Bold.woff");
+  format("woff");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNova-Regular.woff");
+  format("woff");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: Semibold;
+  src: url("../fonts/ProximaNova-Semibold.woff");
+  format("woff");
 }

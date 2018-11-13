@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "fonts.css";
 
 * {
   box-sizing: border-box;
@@ -7,11 +8,11 @@
 }
 
 header, .timestamp, .panel {
-  font-family: Arial, sans-sans-serif;
+  font-family: "Proxima Nova", sans-sans-serif;
 }
 
 h3 {
-  font-family: Georgia, serif;
+  font-family: "PF Regal", serif;
 }
 
 .head {
@@ -73,6 +74,8 @@ body > header li {
   display: inline-block;
 
   padding-right: 15px;
+
+  font-weight: 600;
 }
 
 header ul {
@@ -129,8 +132,18 @@ section {
   background-color: #fff;
 }
 
+.card {
+  height: 140px;
+  margin-top: 15px;
+  padding-right: 25px;
+}
+
 .is-important {
   width: 50%;
+}
+
+.is-important h3 {
+  font-size: 34px;
 }
 
 .container-right {
@@ -145,7 +158,6 @@ section {
   display: flex;
 
   width: 50%;
-  height: 100%;
 
   flex-flow: column nowrap;
 }
@@ -153,24 +165,41 @@ section {
 .container {
   display: flex;
 
+  padding: 18px;
+
   align-items: stretch;
   flex-flow: row nowrap;
   flex-grow: 1;
 }
 
-.headertop {
-  min-height: 46px;
-  padding: 16px 18px 0;
-}
 
 .top-stories {
-  height: 350px;
+  height: 370px;
+}
+
+.top-stories__header {
+  min-height: 46px;
+  padding: 16px 18px 0;
+
+  text-transform: uppercase;
+
+  color: gray;
+
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .container-right .card h3 {
+  font-size: 20px;
+
   flex: 1;
 }
 
+
 .timestamp {
+  margin-top: 10px;
+
+  font-size: 12px;
+
   flex: 2;
 }
