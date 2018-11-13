@@ -128,3 +128,49 @@ section {
   border-top: 4px solid #b88b58;
   background-color: #fff;
 }
+
+.is-important {
+  width: 50%;
+}
+
+.container-right {
+  display: flex;
+
+  width: 50%;
+
+  flex-flow: row wrap;
+}
+
+.container-right .card {
+  display: flex;
+
+  width: 50%;
+  height: 100%;
+
+  flex-flow: column nowrap;
+}
+
+.container {
+  display: flex;
+
+  align-items: stretch;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+}
+
+.headertop {
+  min-height: 46px;
+  padding: 16px 18px 0;
+}
+
+.top-stories {
+  height: 350px;
+}
+
+.container-right .card h3 {
+  flex: 1;
+}
+
+.timestamp {
+  flex: 2;
+}
